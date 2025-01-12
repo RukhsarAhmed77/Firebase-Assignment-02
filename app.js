@@ -71,7 +71,7 @@ async function getUserDataFromDB() {
         <tr class="users">
             <td>${first} ${last}</td>
             <td>${email}</td>
-            <td><button class="action_btn" onclick="updateData('${doc.id}')">Update</button></td>
+            <td><button class="action_btn" onclick="updateData('${doc.id}')">Edit</button></td>
             <td><button class="action_btn" onclick="deleteUser('${doc.id}')">Delete</button></td>
         </tr>
         `;
